@@ -6,6 +6,7 @@ import HowItWorksSection from "@/components/HowItWorksSection";
 import ThemesSection from "@/components/ThemesSection";
 import PricingSection from "@/components/PricingSection";
 import FinalCtaSection from "@/components/FinalCtaSection";
+import AboutSection from "@/components/AboutSection";
 
 const Index = () => (
   <main>
@@ -17,6 +18,7 @@ const Index = () => (
     <ThemesSection />
     <PricingSection />
     <FinalCtaSection />
+    <AboutSection />
   </main>
 );
 
