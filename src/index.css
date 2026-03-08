@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 40 33% 97%;
-    --foreground: 150 15% 20%;
+    --background: 340 30% 97%;
+    --foreground: 155 25% 18%;
 
-    --card: 40 30% 95%;
-    --card-foreground: 150 15% 20%;
+    --card: 340 25% 94%;
+    --card-foreground: 155 25% 18%;
 
-    --popover: 40 33% 97%;
-    --popover-foreground: 150 15% 20%;
+    --popover: 340 30% 97%;
+    --popover-foreground: 155 25% 18%;
 
-    --primary: 150 18% 38%;
-    --primary-foreground: 40 33% 97%;
+    --primary: 155 35% 36%;
+    --primary-foreground: 340 30% 97%;
 
-    --secondary: 16 45% 72%;
-    --secondary-foreground: 150 15% 20%;
+    --secondary: 340 45% 75%;
+    --secondary-foreground: 155 25% 18%;
 
-    --muted: 40 20% 92%;
-    --muted-foreground: 150 10% 45%;
+    --muted: 340 18% 92%;
+    --muted-foreground: 155 12% 42%;
 
-    --accent: 42 50% 75%;
-    --accent-foreground: 150 15% 20%;
+    --accent: 340 55% 82%;
+    --accent-foreground: 155 25% 18%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 20% 88%;
-    --input: 40 20% 88%;
-    --ring: 150 18% 38%;
+    --border: 340 18% 88%;
+    --input: 340 18% 88%;
+    --ring: 155 35% 36%;
 
     --radius: 0.75rem;
 
-    --sage: 150 18% 38%;
-    --sage-light: 150 15% 90%;
-    --terracotta: 16 45% 72%;
-    --terracotta-deep: 16 40% 55%;
-    --cream: 40 33% 97%;
-    --cream-dark: 40 25% 92%;
-    --gold: 42 50% 55%;
-    --gold-light: 42 50% 75%;
+    --sage: 155 35% 36%;
+    --sage-light: 155 25% 90%;
+    --terracotta: 340 50% 72%;
+    --terracotta-deep: 340 45% 55%;
+    --cream: 340 30% 97%;
+    --cream-dark: 340 20% 92%;
+    --gold: 340 55% 82%;
+    --gold-light: 340 40% 88%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
