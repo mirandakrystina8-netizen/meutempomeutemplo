@@ -4,9 +4,12 @@ import SectionWrapper from "./SectionWrapper";
 const PricingSection = () => (
   <SectionWrapper id="investimento">
     <div className="text-center">
-      <h2 className="mb-10 text-3xl font-semibold italic text-foreground md:text-4xl">
+      <h2 className="mb-4 text-3xl font-semibold italic text-foreground md:text-4xl">
         Investimento
       </h2>
+      <p className="mb-10 text-lg text-muted-foreground">
+        Menos que um delivery por semana pra cuidar da sua saúde mental de verdade.
+      </p>
 
       <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 md:flex-row md:items-stretch md:justify-center">
         {/* Plano mensal */}
@@ -18,12 +21,14 @@ const PricingSection = () => (
           className="flex w-full max-w-xs flex-col rounded-2xl bg-card p-10 shadow-xl"
         >
           <p className="mb-1 text-base text-muted-foreground">Plano mensal</p>
-          <p className="mb-6 text-5xl font-bold text-foreground">
+          <p className="mb-2 text-5xl font-bold text-foreground">
             R$67<span className="text-base font-normal text-muted-foreground">/mês</span>
           </p>
+          <p className="mb-6 text-sm text-muted-foreground">Assinatura cancelável a qualquer momento</p>
           <div className="mb-8 space-y-1 text-sm text-muted-foreground">
-            <p>Funciona como assinatura.</p>
-            <p>Você pode cancelar quando quiser.</p>
+            <p>✓ 2 encontros ao vivo por mês</p>
+            <p>✓ Grupo pequeno e acolhedor</p>
+            <p>✓ Cancele quando quiser</p>
           </div>
           <motion.a
             href="https://pay.kiwify.com.br/NX7DfBT"
@@ -33,7 +38,7 @@ const PricingSection = () => (
             whileTap={{ scale: 0.97 }}
             className="mt-auto inline-block rounded-full bg-primary px-8 py-4 font-body text-base font-semibold tracking-wide text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
           >
-            Quero participar
+            Quero entrar no grupo
           </motion.a>
         </motion.div>
 
@@ -49,12 +54,12 @@ const PricingSection = () => (
             Melhor valor
           </span>
           <p className="mb-1 text-base text-muted-foreground">Plano trimestral</p>
-          <p className="mb-6 text-5xl font-bold text-foreground">
-            R$160
-          </p>
+          <p className="mb-2 text-5xl font-bold text-foreground">R$160</p>
+          <p className="mb-6 text-sm text-muted-foreground">Pagamento único • Economia de R$41</p>
           <div className="mb-8 space-y-1 text-sm text-muted-foreground">
-            <p>Pagamento único trimestral.</p>
-            <p>Economia de mais de R$40!</p>
+            <p>✓ 6 encontros ao vivo</p>
+            <p>✓ Grupo pequeno e acolhedor</p>
+            <p>✓ Melhor custo-benefício</p>
           </div>
           <motion.a
             href="https://pay.kiwify.com.br/y6zTIbi"
@@ -64,7 +69,7 @@ const PricingSection = () => (
             whileTap={{ scale: 0.97 }}
             className="mt-auto inline-block rounded-full bg-primary px-8 py-4 font-body text-base font-semibold tracking-wide text-primary-foreground shadow-lg transition-shadow hover:shadow-xl"
           >
-            Quero participar
+            Quero entrar no grupo
           </motion.a>
         </motion.div>
       </div>

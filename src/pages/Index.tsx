@@ -1,23 +1,31 @@
 import HeroSection from "@/components/HeroSection";
-import IdentificationSection from "@/components/IdentificationSection";
-import WhatIsSection from "@/components/WhatIsSection";
-import WhyGroupSection from "@/components/WhyGroupSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
-import ThemesSection from "@/components/ThemesSection";
+import BeliefBreakSection from "@/components/BeliefBreakSection";
+import NewPossibilitySection from "@/components/NewPossibilitySection";
+import MechanismSection from "@/components/MechanismSection";
+import DiagnosisSection from "@/components/DiagnosisSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import AnchorBlockSection from "@/components/AnchorBlockSection";
+import WhatYouGetSection from "@/components/WhatYouGetSection";
+import ObjectionsSection from "@/components/ObjectionsSection";
 import PricingSection from "@/components/PricingSection";
-import FinalCtaSection from "@/components/FinalCtaSection";
+import ClosingSection from "@/components/ClosingSection";
+import FaqSection from "@/components/FaqSection";
 import AboutSection from "@/components/AboutSection";
 
 const Index = () => (
   <main>
     <HeroSection />
-    <IdentificationSection />
-    <WhatIsSection />
-    <WhyGroupSection />
-    <HowItWorksSection />
-    <ThemesSection />
+    <BeliefBreakSection />
+    <NewPossibilitySection />
+    <MechanismSection />
+    <DiagnosisSection />
+    <TestimonialsSection />
+    <AnchorBlockSection />
+    <WhatYouGetSection />
+    <ObjectionsSection />
     <PricingSection />
-    <FinalCtaSection />
+    <ClosingSection />
+    <FaqSection />
     <AboutSection />
   </main>
 );
