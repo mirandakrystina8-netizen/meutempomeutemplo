@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
 
 const possibilities = [
@@ -37,5 +38,4 @@ const NewPossibilitySection = () => (
   </SectionWrapper>
 );
 
-import { motion } from "framer-motion";
 export default NewPossibilitySection;
