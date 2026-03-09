@@ -2,22 +2,22 @@ import { motion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
 
 const possibilities = [
-  "Você pode desacelerar sem precisar de férias ou de sumir do mundo",
-  "Existe um jeito de diminuir o barulho mental usando atividades simples",
-  "Você não precisa resolver isso sozinha — e nem deveria",
-  "Parar não é fraqueza. É o primeiro passo pra sair do looping",
+  "Existe um jeito prático de diminuir o barulho da cabeça — sem meditação, sem remédio, sem precisar de férias",
+  "Você pode aprender a desacelerar usando atividades simples com papel e caneta",
+  "Outras mulheres como você já estão fazendo isso — e dormindo melhor",
+  "Parar não é preguiça. É o primeiro passo pra sair do looping",
 ];
 
 const NewPossibilitySection = () => (
-  <SectionWrapper>
+  <SectionWrapper className="bg-sage-light">
     <h2 className="mb-10 text-3xl font-semibold italic text-foreground md:text-4xl">
-      Mas e se eu te dissesse que existe outro caminho?
+      Mas e se existisse outro jeito?
     </h2>
 
     <ul className="space-y-5">
       {possibilities.map((item) => (
-        <li key={item} className="flex items-start gap-4 text-lg text-muted-foreground">
-          <span className="mt-1.5 text-xl text-sage">✓</span>
+        <li key={item} className="flex items-start gap-4 text-base text-muted-foreground md:text-lg">
+          <span className="mt-0.5 text-xl text-sage">✦</span>
           {item}
         </li>
       ))}

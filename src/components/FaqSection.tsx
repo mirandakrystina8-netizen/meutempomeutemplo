@@ -10,35 +10,35 @@ import {
 const faqs = [
   {
     q: "Preciso saber desenhar?",
-    a: "Não. As atividades não são sobre fazer algo bonito. São ferramentas pra desacelerar a mente. Qualquer pessoa consegue fazer.",
+    a: "Não. As atividades são simples — traços, cores, formas básicas. Não é sobre fazer bonito. É sobre desacelerar.",
   },
   {
-    q: "Os encontros são gravados?",
-    a: "Não. Os encontros são ao vivo e não ficam gravados, justamente pra criar um espaço seguro onde todas se sintam à vontade.",
+    q: "Preciso falar ou me expor?",
+    a: "Não. Você participa do seu jeito. Pode só fazer a atividade e escutar. Ninguém é obrigada a falar.",
   },
   {
-    q: "Quantas pessoas tem no grupo?",
-    a: "O grupo é pequeno de propósito, pra garantir acompanhamento próximo e um espaço acolhedor.",
+    q: "E se eu perder um encontro?",
+    a: "Sem problema. São 2 encontros por mês. Você participa dos que conseguir. Sem cobrança.",
   },
   {
-    q: "Posso cancelar a qualquer momento?",
-    a: "Sim. No plano mensal, você cancela quando quiser, sem burocracia e sem perguntas.",
+    q: "Tem gravação?",
+    a: "Não. Os encontros são ao vivo e não ficam gravados, pra criar um espaço seguro onde todas se sintam à vontade.",
   },
   {
-    q: "E se eu não puder participar de um encontro?",
-    a: "Sem problema. Os encontros acontecem duas vezes por mês e você participa dos que conseguir.",
+    q: "Como cancela?",
+    a: "Direto pela Kiwify, a qualquer momento. Sem burocracia, sem perguntas, sem fidelidade.",
   },
   {
     q: "É terapia?",
-    a: "É uma vivência terapêutica conduzida por uma arte-terapeuta, mas não substitui acompanhamento psicológico individual. Pode ser um ótimo complemento.",
+    a: "É uma vivência terapêutica conduzida por uma arte-terapeuta. Não substitui acompanhamento psicológico, mas pode ser um ótimo complemento.",
   },
   {
-    q: "Funciona pra quem tem insônia e cansaço mental?",
-    a: "Sim. Muitas participantes relatam melhora no sono e redução do cansaço mental depois dos encontros.",
+    q: "Quanto tempo dura cada encontro?",
+    a: "De 60 a 90 minutos, dependendo do tema e do ritmo do grupo.",
   },
   {
-    q: "Que materiais eu preciso?",
-    a: "Papel, lápis ou caneta, e canetinhas coloridas se tiver. Materiais simples que você provavelmente já tem em casa.",
+    q: "Como acesso? Como funciona a Kiwify?",
+    a: "Você faz a inscrição pela Kiwify (cartão ou Pix), recebe o acesso por e-mail e entra nos encontros pelo Google Meet. Simples assim.",
   },
 ];
 
@@ -62,8 +62,8 @@ const FaqSection = () => (
     </Accordion>
 
     <div className="mt-12 text-center">
-      <p className="mb-6 text-lg text-muted-foreground">
-        Ainda tem dúvida? A melhor forma de entender é experimentando.
+      <p className="mb-6 text-base text-muted-foreground md:text-lg">
+        Ainda tem dúvida? Me chama no direct/WhatsApp com <strong className="text-foreground">"TEMPLO"</strong>.
       </p>
       <motion.a
         href="https://pay.kiwify.com.br/NX7DfBT"

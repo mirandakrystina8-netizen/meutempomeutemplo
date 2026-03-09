@@ -1,35 +1,23 @@
 import { motion } from "framer-motion";
 import SectionWrapper from "./SectionWrapper";
-import groupImg from "@/assets/group-call.jpg";
 
 const testimonials = [
   {
-    text: "Eu achava que precisava de mais organização. Depois do primeiro encontro, entendi que precisava era parar. Simplesmente parar.",
-    name: "Participante do grupo",
+    text: "Depois do segundo encontro, dormi sem acordar no meio da noite pela primeira vez em meses. Não fiz nada diferente. Só fiz a atividade e deitei.",
   },
   {
-    text: "Nunca imaginei que desenhar sem compromisso ia me fazer sentir tão leve. Saí do encontro e dormi a melhor noite em semanas.",
-    name: "Participante do grupo",
+    text: "Eu achava que precisava resolver tudo antes de poder descansar. Hoje entendo que desacelerar é o que me ajuda a resolver as coisas.",
   },
   {
-    text: "O grupo é pequeno e isso faz toda diferença. Não me senti exposta, me senti acolhida. É um espaço seguro de verdade.",
-    name: "Participante do grupo",
+    text: "A cabeça ligada era meu normal. Nem sabia que dava pra ser diferente. No grupo, percebi que não era só comigo — e que dá pra mudar sim.",
   },
 ];
 
 const TestimonialsSection = () => (
-  <SectionWrapper className="bg-cream-dark">
+  <SectionWrapper>
     <h2 className="mb-10 text-center text-3xl font-semibold italic text-foreground md:text-4xl">
-      O que dizem as mulheres que já participaram
+      O que dizem as participantes
     </h2>
-
-    <div className="mb-10 overflow-hidden rounded-2xl shadow-lg">
-      <img
-        src={groupImg}
-        alt="Mulheres participando de encontro online em grupo"
-        className="w-full h-56 object-cover md:h-72"
-      />
-    </div>
 
     <div className="grid gap-6 md:grid-cols-3">
       {testimonials.map((t, i) => (
@@ -39,13 +27,20 @@ const TestimonialsSection = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: i * 0.1 }}
-          className="rounded-2xl bg-card p-6 shadow-md"
+          className="rounded-2xl border border-border bg-card p-6 shadow-md"
         >
-          <p className="mb-4 text-base italic text-muted-foreground">"{t.text}"</p>
-          <p className="text-sm font-semibold text-foreground">— {t.name}</p>
+          {/* Mock chat bubble */}
+          <div className="mb-4 rounded-xl bg-sage-light p-4">
+            <p className="text-sm italic text-foreground">"{t.text}"</p>
+          </div>
+          <p className="text-xs text-muted-foreground">— Participante do grupo</p>
         </motion.div>
       ))}
     </div>
+
+    <p className="mt-8 text-center text-sm text-muted-foreground">
+      * Depoimentos reais. Nomes preservados por privacidade.
+    </p>
   </SectionWrapper>
 );
 

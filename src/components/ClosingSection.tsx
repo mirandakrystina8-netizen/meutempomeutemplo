@@ -7,17 +7,19 @@ const ClosingSection = () => (
       Pensa comigo…
     </h2>
 
-    <div className="mb-10 space-y-4 text-base text-muted-foreground md:text-lg">
+    <div className="mx-auto mb-10 max-w-lg space-y-4 text-base text-muted-foreground md:text-lg">
       <p>
-        Você pode fechar essa página e continuar fazendo tudo igual.
-        Mesma rotina, mesmos pensamentos, mesmo cansaço.
+        Quanto vale dormir melhor?
       </p>
       <p>
-        Ou pode experimentar algo diferente. Duas vezes por mês,
-        60 minutos, do conforto da sua casa.
+        Quanto vale acordar sem aquela pressão na cabeça?
+      </p>
+      <p>
+        Quanto vale ter um espaço só seu, duas vezes por mês, pra sair do looping?
       </p>
       <p className="text-xl font-semibold text-foreground">
-        Não é sobre mudar de vida. É sobre dar uma pausa de verdade.
+        Você pode continuar tentando sozinha.
+        Ou pode experimentar um jeito diferente.
       </p>
     </div>
 
@@ -31,6 +33,10 @@ const ClosingSection = () => (
     >
       Quero entrar no grupo
     </motion.a>
+
+    <p className="mt-4 text-sm text-muted-foreground">
+      ou me chama no direct/WhatsApp com <strong className="text-foreground">"TEMPLO"</strong>
+    </p>
   </SectionWrapper>
 );
 

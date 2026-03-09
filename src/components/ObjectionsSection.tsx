@@ -1,20 +1,21 @@
 import SectionWrapper from "./SectionWrapper";
 
 const objections = [
-  "Saber desenhar ou ter qualquer habilidade artística",
-  "Ter experiência com terapia ou grupos",
-  "Mostrar seus desenhos pra ninguém",
-  "Ter muito tempo livre — são só 2 encontros por mês",
-  "Estar num momento \"bom\" pra começar — não existe momento perfeito",
+  "Saber desenhar — as atividades são simples, qualquer pessoa faz",
+  "Ser disciplinada — é só aparecer, a gente guia tudo",
+  "Se expor ou falar sobre sua vida — você participa do seu jeito",
+  "Ter material caro — papel, lápis e canetinha bastam",
+  "Estar no limite pra começar — não existe momento perfeito",
 ];
 
 const ObjectionsSection = () => (
   <SectionWrapper className="bg-cream-dark">
     <h2 className="mb-4 text-3xl font-semibold italic text-foreground md:text-4xl">
-      Antes que você queira se sabotar…
+      Antes de você se sabotar…
     </h2>
-    <p className="mb-8 text-lg text-muted-foreground">
-      Eu sei que a cabeça já começou a inventar desculpas. Então deixa eu adiantar:
+    <p className="mb-8 text-base text-muted-foreground md:text-lg">
+      Eu sei que a cabeça já começou a inventar desculpas.
+      Então deixa eu adiantar:
     </p>
 
     <p className="mb-6 text-xl font-semibold text-foreground">
@@ -24,7 +25,7 @@ const ObjectionsSection = () => (
     <ul className="space-y-4">
       {objections.map((item) => (
         <li key={item} className="flex items-start gap-4 text-base text-muted-foreground md:text-lg">
-          <span className="mt-1 text-lg text-sage">→</span>
+          <span className="mt-0.5 text-lg text-terracotta">✕</span>
           {item}
         </li>
       ))}

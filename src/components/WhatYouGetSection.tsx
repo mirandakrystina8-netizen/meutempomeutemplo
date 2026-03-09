@@ -14,7 +14,7 @@ const items = [
 ];
 
 const WhatYouGetSection = () => (
-  <SectionWrapper>
+  <SectionWrapper className="bg-sage-light">
     <h2 className="mb-10 text-3xl font-semibold italic text-foreground md:text-4xl">
       O que você recebe
     </h2>
@@ -32,7 +32,7 @@ const WhatYouGetSection = () => (
       <div className="w-full max-w-sm flex-shrink-0">
         <img
           src={materialsImg}
-          alt="Materiais usados nos encontros: papel, lápis, canetinhas e chá"
+          alt="Kit de materiais: caderno, canetas coloridas e chá"
           className="w-full rounded-2xl shadow-lg"
         />
       </div>

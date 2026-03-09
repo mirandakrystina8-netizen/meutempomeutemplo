@@ -1,35 +1,41 @@
 import SectionWrapper from "./SectionWrapper";
 import mechanismImg from "@/assets/mechanism.jpg";
+import handsImg from "@/assets/hands-drawing.jpg";
 
 const MechanismSection = () => (
-  <SectionWrapper className="bg-sage-light">
-    <div className="flex flex-col items-center gap-10 md:flex-row">
-      <div className="flex-1">
-        <h2 className="mb-8 text-3xl font-semibold italic text-foreground md:text-4xl">
-          Troca de modo: do alerta pro descanso
-        </h2>
+  <SectionWrapper>
+    <h2 className="mb-8 text-3xl font-semibold italic text-foreground md:text-4xl">
+      Por que funciona (neuro simples)
+    </h2>
 
-        <div className="space-y-4 text-base text-muted-foreground md:text-lg">
-          <p>
-            Quando sua cabeça está ligada o tempo todo, seu corpo fica em modo de alerta.
-            É como se você estivesse sempre pronta pra resolver alguma coisa — mesmo quando não tem nada urgente.
-          </p>
-          <p>
-            O problema é que nesse estado, descansar parece impossível.
-            Você deita e a mente dispara. Você tenta parar e se sente culpada.
-          </p>
-          <p>
-            Nos encontros do <span className="font-semibold text-foreground">Meu Tempo, Meu Templo</span>,
-            a gente usa atividades manuais e criativas pra ajudar o cérebro a sair desse modo de alerta
-            e entrar no modo de descanso — de forma natural, sem forçar.
-          </p>
-        </div>
+    <div className="flex flex-col gap-10 md:flex-row md:items-center">
+      <div className="flex-1 space-y-4 text-base text-muted-foreground md:text-lg">
+        <p>
+          Quando sua cabeça está ligada o dia todo, seu corpo fica travado em <strong className="text-foreground">modo de alerta</strong>.
+          É como se ele estivesse sempre pronto pra resolver alguma coisa — mesmo quando não tem nada urgente.
+        </p>
+        <p>
+          O problema é que nesse modo, o sono fica leve, a irritação aumenta e você acorda já cansada.
+        </p>
+        <p>
+          As atividades guiadas do <strong className="text-foreground">Meu Tempo, Meu Templo</strong> ocupam
+          sua atenção de um jeito diferente — com as mãos, com cores, com traços simples.
+          Isso ajuda o corpo a sair do modo de alerta e entrar no <strong className="text-foreground">modo de descanso</strong>.
+        </p>
+        <p>
+          Sem aula. Sem teoria. Só prática guiada que funciona.
+        </p>
       </div>
 
-      <div className="w-full max-w-sm flex-shrink-0">
+      <div className="flex w-full max-w-sm flex-shrink-0 flex-col gap-4">
         <img
           src={mechanismImg}
-          alt="Ilustração mostrando a transição do modo alerta para o modo descanso"
+          alt="Modo alerta para modo descanso"
+          className="w-full rounded-2xl shadow-lg"
+        />
+        <img
+          src={handsImg}
+          alt="Mãos desenhando durante atividade guiada"
           className="w-full rounded-2xl shadow-lg"
         />
       </div>
