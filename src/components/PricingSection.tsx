@@ -5,14 +5,14 @@ const PricingSection = () => (
   <SectionWrapper id="investimento">
     <div className="text-center">
       <h2 className="mb-4 text-3xl font-semibold italic text-foreground md:text-4xl">
-        Investimento
+        Planos e investimento
       </h2>
-      <p className="mb-10 text-lg text-muted-foreground">
-        Menos que um delivery por semana pra cuidar da sua saúde mental de verdade.
+      <p className="mb-10 text-base text-muted-foreground md:text-lg">
+        Menos que um delivery por semana pra cuidar de verdade do seu cansaço mental.
       </p>
 
       <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 md:flex-row md:items-stretch md:justify-center">
-        {/* Plano mensal */}
+        {/* Mensal */}
         <motion.div
           initial={{ scale: 0.95 }}
           whileInView={{ scale: 1 }}
@@ -24,11 +24,11 @@ const PricingSection = () => (
           <p className="mb-2 text-5xl font-bold text-foreground">
             R$67<span className="text-base font-normal text-muted-foreground">/mês</span>
           </p>
-          <p className="mb-6 text-sm text-muted-foreground">Assinatura cancelável a qualquer momento</p>
+          <p className="mb-6 text-sm text-muted-foreground">Assinatura • Cancele quando quiser</p>
           <div className="mb-8 space-y-1 text-sm text-muted-foreground">
             <p>✓ 2 encontros ao vivo por mês</p>
             <p>✓ Grupo pequeno e acolhedor</p>
-            <p>✓ Cancele quando quiser</p>
+            <p>✓ Sem fidelidade</p>
           </div>
           <motion.a
             href="https://pay.kiwify.com.br/NX7DfBT"
@@ -42,7 +42,7 @@ const PricingSection = () => (
           </motion.a>
         </motion.div>
 
-        {/* Plano trimestral */}
+        {/* Trimestral */}
         <motion.div
           initial={{ scale: 0.95 }}
           whileInView={{ scale: 1 }}
@@ -73,6 +73,13 @@ const PricingSection = () => (
           </motion.a>
         </motion.div>
       </div>
+
+      <p className="mt-8 text-sm text-muted-foreground">
+        Entrada segura pela Kiwify. Pagamento por cartão ou Pix.
+      </p>
+      <p className="mt-2 text-sm text-muted-foreground">
+        Tem dúvida? Me chama no direct/WhatsApp com <strong className="text-foreground">"TEMPLO"</strong>
+      </p>
     </div>
   </SectionWrapper>
 );
