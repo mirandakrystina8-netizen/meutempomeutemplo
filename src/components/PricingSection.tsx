@@ -22,7 +22,7 @@ const PricingSection = () => (
         >
           <p className="mb-1 text-base text-muted-foreground">Plano mensal</p>
           <p className="mb-2 text-5xl font-bold text-foreground">
-            R$67<span className="text-base font-normal text-muted-foreground">/mês</span>
+            R$97<span className="text-base font-normal text-muted-foreground">/mês</span>
           </p>
           <p className="mb-6 text-sm text-muted-foreground">Assinatura • Cancele quando quiser</p>
           <div className="mb-8 space-y-1 text-sm text-muted-foreground">
@@ -54,8 +54,8 @@ const PricingSection = () => (
             Melhor valor
           </span>
           <p className="mb-1 text-base text-muted-foreground">Plano trimestral</p>
-          <p className="mb-2 text-5xl font-bold text-foreground">R$160</p>
-          <p className="mb-6 text-sm text-muted-foreground">Pagamento único • Economia de R$41</p>
+          <p className="mb-2 text-5xl font-bold text-foreground">R$200</p>
+          <p className="mb-6 text-sm text-muted-foreground">R$67/mês • Economia de R$91</p>
           <div className="mb-8 space-y-1 text-sm text-muted-foreground">
             <p>✓ 6 encontros ao vivo</p>
             <p>✓ Grupo pequeno e acolhedor</p>
