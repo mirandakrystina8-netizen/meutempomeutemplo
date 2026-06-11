@@ -45,7 +45,7 @@ const HeroSection = () => (
       </motion.p>
 
       <motion.a
-        href="https://pay.kiwify.com.br/NX7DfBT"
+        href="https://pay.kiwify.com.br/2hYgEb2"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, y: 20 }}

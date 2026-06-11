@@ -24,7 +24,7 @@ const ClosingSection = () => (
     </div>
 
     <motion.a
-      href="https://pay.kiwify.com.br/NX7DfBT"
+      href="https://pay.kiwify.com.br/2hYgEb2"
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ scale: 1.04 }}
