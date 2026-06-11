@@ -62,7 +62,7 @@ const PricingSection = () => (
             <p>✓ Melhor custo-benefício</p>
           </div>
           <motion.a
-            href="https://pay.kiwify.com.br/y6zTIbi"
+            href="https://pay.kiwify.com.br/9Js0Nf6"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.04 }}
